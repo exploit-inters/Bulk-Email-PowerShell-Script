@@ -36,7 +36,7 @@ $attachment = "C:\test.txt"
     $message.to.add($to)
     $message.cc.add($cc)
     $message.from = $username
-    #$message.attachments.add($attachment)
+    $message.attachments.add($attachment)
 
     $smtp = New-Object System.Net.Mail.SmtpClient($SMTPServer, $SMTPPort);
     $smtp.EnableSSL = $true
