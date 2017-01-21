@@ -1,4 +1,6 @@
-﻿$MailingList = Import-Csv E:\MailingList.csv
+﻿# By: Bipul Raman
+
+$MailingList = Import-Csv E:\MailingList.csv
 
 #SMTP Server and port may differ for different email service provider
 $SMTPServer = "smtp.gmail.com"
